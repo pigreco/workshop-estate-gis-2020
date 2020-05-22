@@ -2,14 +2,39 @@
 
 Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e i grafici di  [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
 
+<!-- TOC -->
+
+- [Seminario estate GIS 2020 UNIPD](#seminario-estate-gis-2020-unipd)
+  - [Relatore](#relatore)
+  - [Data, luogo e durata](#data-luogo-e-durata)
+  - [Piattaforma](#piattaforma)
+  - [Programma](#programma)
+  - [Stampe PDF](#stampe-pdf)
+  - [Dati](#dati)
+  - [Contatti](#contatti)
+  - [Sitografia](#sitografia)
+- [](#)
+
+<!-- /TOC -->
+
+[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/pigreco/seminario-estate-gis-2020/blob/master/license)
+[![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/pigreco/seminario-estate-gis-2020/commits/master)
+
 ## Relatore
 
-- Ing. **Totò FIANDACA** (Socio [GFOSS.it](https://gfoss.it/), membro [QGIS Italia](http://qgis.it/), membro [OpenDataSicilia](http://opendatasicilia.it/) )
+- **Totò FIANDACA** (Socio [GFOSS.it](https://gfoss.it/), membro [QGIS Italia](http://qgis.it/), membro [OpenDataSicilia](http://opendatasicilia.it/) )
 
-## Data e luogo
+![](imgs/loghi_small.png)
+
+## Data, luogo e durata
 
 - 24/06/2020 con orario 17.30-19.30
 - on-line
+- due ore
+
+## Piattaforma
+
+- ZOOM
 
 ## Programma
 
@@ -48,6 +73,12 @@ Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-1
 
 ![](./imgs/img_01.png)
 
+## Dati
+
+- **shapefile ISTAT** : <https://www.istat.it/it/archivio/222527>
+- **CSV popolazione residente ISTAT**: <http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1>
+- **CSV remoti** : 
+
 ---
 
 ## Contatti
@@ -59,11 +90,13 @@ Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-1
 
 ## Sitografia
 
-* **blog**: https://pigrecoinfinito.com/
-* **canale youtube**: http://www.youtube.com/c/TotòFiandaca
-* **HfcQGIS**: http://hfcqgis.opendatasicilia.it/it/latest/index.html
-* **Tansignari**: http://tansignari.opendatasicilia.it/it/latest/#
-* **data.world**: https://data.world/pigrecoinfinito
-* **github**: https://github.com/pigreco
-* **gitlab**: https://gitlab.com/pigr3co
-* **Canale Telegram** : https://t.me/pigrecoinfinito
+* **blog**: <https://pigrecoinfinito.com/>
+* **canale youtube**: <http://www.youtube.com/c/TotòFiandaca>
+* **HfcQGIS**: <http://hfcqgis.opendatasicilia.it/it/latest/index.html>
+* **Tansignari**: <http://tansignari.opendatasicilia.it/it/latest/#>
+* **data.world**: <https://data.world/pigrecoinfinito>
+* **github**: <https://github.com/pigreco>
+* **gitlab**: <https://gitlab.com/pigr3co>
+* **Canale Telegram** : <https://t.me/pigrecoinfinito>
+
+# 
