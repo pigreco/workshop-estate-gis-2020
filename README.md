@@ -1,6 +1,8 @@
 # Seminario estate GIS 2020 UNIPD
 
-Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
+**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
+
+**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far capire le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Useremo il repository della **PCM-DPC** sulla Pandemia COVID-19 in Italia e costruiremo un progetto **QGIS** per analizzare e visualizzare i dati collegati direttamente con la fonte dei dati e quindi sempre aggiornati.
 
 ---
 
