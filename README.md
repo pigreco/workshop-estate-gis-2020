@@ -2,9 +2,9 @@
 
 -- **in costruzione** --
 
-**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg) e realizzazione di una dashboard.
+**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg) e realizzazione di una dashboard.
 
-**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS** ![](./imgs/qgis-icon32.png), per analizzare e visualizzare i dati (dashboard), che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
+**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS**, per analizzare e visualizzare i dati (dashboard), che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
 
 ---
 
