@@ -2,9 +2,9 @@
 
 -- **in costruzione** --
 
-**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
+**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg) e realizzazione di una dashboard.
 
-**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS**, per analizzare e visualizzare i dati, che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
+**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS** ![](./imgs/qgis-icon32.png), per analizzare e visualizzare i dati (dashboard), che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
 
 ---
 
@@ -60,26 +60,26 @@
    1. differenza tra shapefile generalizzati e non, quale scaricare;
    2. perché ottengo 4 cartelle se scarico gli shapefile ISTAT;
 3. dove sono i dati sulla [popolazione residente italiana ISTAT](http://dati.istat.it/Index.aspx?DataSetCode=DCIS_POPRES1), come scaricarli;
-   1. sito I.Stat popolazione residente al 1° gennaio;
+   1. sito **I.Stat** popolazione residente al 1° gennaio;
    2. [alternative](https://pigrecoinfinito.com/2020/05/16/scaricare-i-dati-sulla-popolazione-residente-italiana-non-e-mai-stato-cosi-facile/) più veloci per scaricare la serie temporale dal 2011 al 2019;
    3. uso riga di comando in win10 [WSL](https://turbolab.it/sottosistema-windows-linux-wsl-3308/linux-windows-10-grande-guida-wsl2.-come-installare-sottosistema-windows-linux-wsl-eseguire-programmi-accedere-file-video-895);
    4. [VisiData](https://www.visidata.org/about/) per analizzare i dati;
 4. come importare i dati scaricati in **QGIS**;
-   1. metodo classico tramite il datamana;
-   2. metodo moderlo tramite Drag&Drop;
-5. calcolare incidenza dati **COVID-19** con il **field calc**;
-   1. perché NON usare i dati assoluti sul COVID-19 per la rappresentazione grafica;
-   2. perché usare l'incidenza dei parametri medici su 10k abitanti;
+   1. metodo classico tramite il **Gestore delle sorgenti dati** (`Ctrl+L`) ![](https://docs.qgis.org/3.4/en/_images/mActionDataSourceManager.png);
+   2. metodo veloce tramite `Drag&Drop`;
+5. calcolare **_incidenza_** dati **COVID-19** con il **field calc**;
+   1. NON usare i dati _**assoluti**_ sul _**COVID-19**_ per la rappresentazione grafica;
+   2. usare l'_**incidenza**_ dei parametri medici su 10k abitanti;
 6. come collegare i dati sul **COVIS-19** agli shapefile **ISTAT**;
-   1. concetto di JOIN tabellare;
-   2. concetto di relazione 1:m;
-7. come creare grafici cumulati e giornalieri usando DataPlotly;
-   1. differenza tra grafici cumulati e giornalieri;
+   1. concetto di **JOIN** tabellare;
+   2. concetto di **relazione** 1:m;
+7. come creare grafici _cumulati_ e _giornalieri_ usando **DataPlotly**;
+   1. differenza tra dati cumulati e giornalieri;
    2. come creare grafici con DataPlotly;
-   3. come calcolare i valori giornalieri usando il field calc;
-8. come creare una atlas con grafici dinamici;
+   3. come calcolare i [valori giornalieri](http://hfcqgis.opendatasicilia.it/it/latest/esempi/calcolo_incrementi_giornalieri.html) usando il _**field calc**_;
+8. come creare una **atlas** con grafici dinamici;
    1. compositore di stampe, layout;
-   2. atlante e dataplotly per gli atlas;
+   2. atlante e DataPlotly per gli atlas;
 9.  come stampare in serie.
     1.  in PDF;
     2.  immagini png,jpg
