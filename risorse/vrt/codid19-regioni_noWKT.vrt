@@ -7,12 +7,12 @@
     <Field name="stato" type="String" />
     <Field name="codice_regione" type="String" />
     <Field name="denominazione_regione" type="String" />
-	<Field name="ricoverati_con_sintomi" type="Integer" />
+    <Field name="ricoverati_con_sintomi" type="Integer" />
     <Field name="terapia_intensiva" type="Integer" />
     <Field name="totale_ospedalizzati" type="Integer" />
     <Field name="isolamento_domiciliare" type="Integer" />
     <Field name="totale_positivi" type="Integer" />
-	<Field name="variazione_totale_positivi" type="Integer" />
+    <Field name="variazione_totale_positivi" type="Integer" />
     <Field name="nuovi_positivi" type="Integer" />
     <Field name="dimessi_guariti" type="Integer" />
     <Field name="deceduti" type="Integer" />
