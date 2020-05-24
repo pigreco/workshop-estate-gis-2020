@@ -1,8 +1,10 @@
 # Seminario estate GIS 2020 UNIPD
 
+-- **in costruzione** --
+
 **TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
 
-**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far capire le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Useremo il repository della **PCM-DPC** sulla Pandemia COVID-19 in Italia e costruiremo un progetto **QGIS** per analizzare e visualizzare i dati collegati direttamente con la fonte dei dati e quindi sempre aggiornati.
+**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS**, per analizzare e visualizzare i dati, che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
 
 ---
 
@@ -86,6 +88,8 @@
 
 ![](./imgs/img_01.png)
 
+![](./imgs/seminario.gif)
+
 ## Dati
 
 - **shapefile ISTAT** : <https://www.istat.it/it/archivio/222527>
@@ -158,12 +162,12 @@ link utile: <https://gdal.org/drivers/vector/vrt.html#virtual-file-format>
     <Field name="stato" type="String" />
     <Field name="codice_regione" type="String" />
     <Field name="denominazione_regione" type="String" />
-	<Field name="ricoverati_con_sintomi" type="Integer" />
+    <Field name="ricoverati_con_sintomi" type="Integer" />
     <Field name="terapia_intensiva" type="Integer" />
     <Field name="totale_ospedalizzati" type="Integer" />
     <Field name="isolamento_domiciliare" type="Integer" />
-    <Field name="totale_attualmente_positivi" type="Integer" />
-    <Field name="nuovi_attualmente_positivi" type="Integer" />
+    <Field name="totale_positivi" type="Integer" />
+    <Field name="nuovi_positivi" type="Integer" />
     <Field name="dimessi_guariti" type="Integer" />
     <Field name="deceduti" type="Integer" />
     <Field name="totale_casi" type="Integer" />
