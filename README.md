@@ -2,7 +2,7 @@
 
 -- **in costruzione** --
 
-**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e dei grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg) e realizzazione di una dashboard.
+**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) 🦠 sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/)  e i grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg), realizzazione di una dashboard.
 
 **DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS**, per analizzare e visualizzare i dati (dashboard), che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
 
@@ -15,7 +15,7 @@
 - [Seminario estate GIS 2020 UNIPD](#seminario-estate-gis-2020-unipd)
   - [Relatore](#relatore)
   - [Data, luogo e durata](#data-luogo-e-durata)
-  - [Piattaforme](#piattaforme)
+  - [Piattaforme e Software](#piattaforme-e-software)
   - [Programma](#programma)
   - [Stampe PDF](#stampe-pdf)
   - [Dati](#dati)
@@ -41,19 +41,19 @@
 
 ## Data, luogo e durata
 
-- 24/06/2020 con orario 17.30-19.30
-- on-line
-- due ore
+- 🗓 24/06/2020 con orario  🕟 17.30 🕢 19.30 
+- 🌐 on-line
+- ⏳ due ore
 
-## Piattaforme
+## Piattaforme e Software
 
 - [ZOOM](https://zoom.us/) - per diretta web
 - Windows 10 64b - come SO
-- [`QGIS 3.12 București`](https://qgis.org/it/site/) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly)
+- [`QGIS 3.12 București`](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
 
 ## Programma
 
-1. Dove trovare i dati italiani sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19), chi li raccoglie e come sono strutturati;
+1. Dove trovare i dati italiani sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) , chi li raccoglie e come sono strutturati;
    1. come usare file csv remoti;
    2. come forzare il tipo di dato su file CSV remoti;
 2. dove sono gli [shapefile ISTAT](https://www.istat.it/it/archivio/222527) dei confini amministrativi italiani, come sono strutturati e come scaricarli;
@@ -73,16 +73,16 @@
 6. come collegare i dati sul **COVIS-19** agli shapefile **ISTAT**;
    1. concetto di **JOIN** tabellare;
    2. concetto di **relazione** 1:m;
-7. come creare grafici _cumulati_ e _giornalieri_ usando **DataPlotly**;
+7. come creare grafici _cumulati_ e _giornalieri_ usando **DataPlotly** ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg);
    1. differenza tra dati cumulati e giornalieri;
-   2. come creare grafici con DataPlotly;
+   2. come creare grafici con **DataPlotly**;
    3. come calcolare i [valori giornalieri](http://hfcqgis.opendatasicilia.it/it/latest/esempi/calcolo_incrementi_giornalieri.html) usando il _**field calc**_;
-8. come creare una **atlas** con grafici dinamici;
-   1. compositore di stampe, layout;
-   2. atlante e DataPlotly per gli atlas;
+8. come creare una **atlas** ![](https://docs.qgis.org/2.14/en/_images/mIconAtlas.png) con grafici dinamici;
+   1. compositore di stampe, layout ![](https://docs.qgis.org/2.14/en/_images/mActionNewComposer.png);
+   2. atlante e **DataPlotly** per gli atlas;
 9.  come stampare in serie.
-    1.  in PDF;
-    2.  immagini png,jpg
+    1.  in PDF ![](https://docs.qgis.org/2.14/en/_images/mActionSaveAsPDF.png);
+    2.  immagini png,jpg ![](https://docs.qgis.org/2.14/en/_images/mActionSaveMapAsImage.png)
 
 ## Stampe PDF
 
