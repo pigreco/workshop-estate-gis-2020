@@ -4,7 +4,7 @@
 
 **TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) 🦠 sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/)  e i grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg), realizzazione di una dashboard.
 
-**DESCRIZIONE**: <br> Obiettivo di questo seminario è quello di far vedere le potenzialità delle analisi geografiche usando _**opendata**_ e software _**Open Source**_. Utilizzeremo il repository della [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) sulla **_Pandemia COVID-19 in Italia_** e costruiremo un progetto **QGIS**, per analizzare e visualizzare i dati (dashboard), che sarà collegato direttamente con la fonte dei dati e quindi sarà sempre aggiornato.
+**DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il repository del [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) e creeremo una **dashboard** con il compositore di stampe. Faremo largo uso del plugin **DataPlotly**, del calcolatore di campi e di **GDAL/OGR** per creare virtual file format.
 
 ---
 
@@ -26,7 +26,7 @@
   - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Riferimenti utili](#riferimenti-utili)
-  - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
+  - [Cosa c'è in questo repo](#cosa-cè-in-questo-repo)
 
 <!-- /TOC -->
 
