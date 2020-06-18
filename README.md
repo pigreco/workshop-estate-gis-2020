@@ -86,11 +86,15 @@
     1.  in PDF ![](https://docs.qgis.org/2.14/en/_images/mActionSaveAsPDF.png);
     2.  immagini png,jpg ![](https://docs.qgis.org/2.14/en/_images/mActionSaveMapAsImage.png)
 
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
+
 ## Stampe PDF
 
 ![](./imgs/img_01.png)
 
 ![](./imgs/seminario.gif)
+
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
 ## Dati
 
@@ -148,7 +152,7 @@ order_by:=  "data"  )[to_int(@my_exp)-1]))))
 
 <p align="center"><a href="" target="_blank"><img src="https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png" width="500" title="DataPlotly"></a></p>
 
-[↑ torna su ↑](#seminario-estate-gis-2020-unipd)
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
 ## Virtual File Format di GDAL/OGR
 
@@ -232,7 +236,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 ![](./imgs/istat88x31.png)
 **NB:** Tutti i dati prodotti dall’Istituto nazionale di statistica (ISTAT) sono rilasciati sotto [licenza Creative Commons (CC BY 3.0 IT)](https://www.istat.it/it/note-legali): è possibile riprodurre, distribuire, trasmettere e adattare liberamente dati e analisi dell’Istituto nazionale di statistica, anche a scopi commerciali, a **condizione che venga citata la fonte**.
 
-[↑ torna su ↑](#seminario-estate-gis-2020-unipd)
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
 ## Cosa c'è in questo repo
 
@@ -253,4 +257,4 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
 
-[↑ torna su ↑](#seminario-estate-gis-2020-unipd)
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
