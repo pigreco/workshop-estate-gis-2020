@@ -6,6 +6,8 @@
 
 **DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il repository del [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) e creeremo una **dashboard** con il compositore di stampe. Faremo largo uso del plugin **DataPlotly**, del calcolatore di campi e di **GDAL/OGR** per creare virtual file format.
 
+![](./imgs/locandina.jpg)
+
 ---
 
 **INDICE**
@@ -49,7 +51,7 @@
 
 - [ZOOM](https://zoom.us/) - per diretta web
 - Windows 10 64b - come SO
-- [`QGIS 3.12 București`](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
+- [`QGIS 3.14 Pi`](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
 
 ## Programma
 
