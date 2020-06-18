@@ -1,4 +1,4 @@
-# Seminario estate GIS 2020 UNIPD
+# Workshop estate GIS 2020 UNIPD
 
 -- **in costruzione** --
 
@@ -14,7 +14,7 @@
 
 <!-- TOC -->
 
-- [Seminario estate GIS 2020 UNIPD](#seminario-estate-gis-2020-unipd)
+- [Workshop estate GIS 2020 UNIPD](#workshop-estate-gis-2020-unipd)
   - [Relatore](#relatore)
   - [Data, luogo e durata](#data-luogo-e-durata)
   - [Piattaforme e Software](#piattaforme-e-software)
