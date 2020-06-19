@@ -72,7 +72,7 @@
 5. calcolare **_incidenza_** dati **COVID-19** con il **field calc**;
    1. NON usare i dati _**assoluti**_ sul _**COVID-19**_ per la rappresentazione grafica;
    2. usare l'_**incidenza**_ dei parametri medici su 10k abitanti;
-6. come collegare i dati sul **COVIS-19** agli shapefile **ISTAT**;
+6. come collegare i dati sul **COVID-19** agli shapefile **ISTAT**;
    1. concetto di **JOIN** tabellare;
    2. concetto di **relazione** 1:m;
 7. come creare grafici _cumulati_ e _giornalieri_ usando **DataPlotly** ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg);
