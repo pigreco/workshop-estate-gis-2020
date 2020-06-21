@@ -1,12 +1,10 @@
 # Workshop estate GIS 2020 UNIPD
 
--- **in costruzione** --
-
 **TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) 🦠 sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/)  e i grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg), realizzazione di una dashboard.
 
 **DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il repository del [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) e creeremo una **dashboard** con il compositore di stampe. Faremo largo uso del plugin **DataPlotly**, del calcolatore di campi e di **GDAL/OGR** per creare virtual file format.
 
-![](./imgs/locandina.jpg)
+<p align="center"><a href="https://www.mastergiscience.it/it_IT/2020/06/01/estate-gis-2020/" target="_blank"><img src="./imgs/locandina.jpg" width="500" title="EstateGIS"></a></p>
 
 ---
 
@@ -24,7 +22,9 @@
   - [Contatti](#contatti)
   - [Sitografia](#sitografia)
 - [Descrizione](#descrizione)
-  - [Espressione usata](#espressione-usata)
+  - [Decorazione Etichetta Titolo](#decorazione-etichetta-titolo)
+  - [Calcolo incrementi giornalieri](#calcolo-incrementi-giornalieri)
+  - [Mappa coropleta normalizzata e grafici](#mappa-coropleta-normalizzata-e-grafici)
   - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Riferimenti utili](#riferimenti-utili)
@@ -51,7 +51,7 @@
 
 - [ZOOM](https://zoom.us/) - per diretta web
 - Windows 10 64b - come SO
-- [`QGIS 3.14 Pi`](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
+- [`QGIS 3.10 A Coruña`](https://qgis.org/it/site/) ![](./imgs/qgis-icon32.png) e Plugin [`DataPlotly 3.7`](https://github.com/ghtmtt/DataPlotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg)
 
 ## Programma
 
@@ -124,28 +124,53 @@
 
 # Descrizione
 
-## Espressione usata
+## Decorazione Etichetta Titolo
 
-Per calcolo valori incrementali giornalieri è stata usata la seguente espressione nel Campo Y dei grafici `Scatter Plot`
+Importare in QGIS il file `codid19-andamento_nazione.vrt`
+
+espressione utilizzata: (Visualizza | Decorazioni | Etichetta Titolo ...)
+
+```python
+DATA : [%aggregate( 
+layer:='codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale', aggregate:='array_agg',
+ expression:="data")[-1]%] - Totale positivi :[%format_number(aggregate( 
+layer:='codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale', aggregate:='array_agg',
+ expression:="totale_positivi")[-1],0)%] - Guariti : [%format_number(aggregate( 
+layer:='codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale', aggregate:='array_agg',
+ expression:="dimessi_guariti")[-1],0)%] - Deceduti: [%format_number(aggregate( 
+layer:='codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale', aggregate:='array_agg',
+expression:="deceduti")[-1],0)%] - Casi Totali: [%format_number(aggregate( 
+layer:='codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale', aggregate:='array_agg',
+expression:="totale_casi")[-1],0)%]
+```
+
+![](imgs/dec_eti_titolo.png)
+
+## Calcolo incrementi giornalieri
+
+Per calcolare i valori incrementali giornalieri - di un parametro medico - è stata usata la seguente espressione nel Campo Y dei grafici `Scatter Plot`
 
 ```python
 with_variable(
 'my_exp', 
 array_find(  
 array_agg( 
-expression:= "data" , group_by:= "codice_regione" ,
+expression:= "data" , 
+group_by:= "codice_regione",
 order_by:="data"),"data"),
 if( 
 to_int(@my_exp) = 0, 
 (array_agg( 
-            expression:=  "terapia_intensiva" , 
+            expression:= "terapia_intensiva" , -- parametro medico
             group_by:= "codice_regione" ,
             order_by:=  "data"  )[0]),
-("terapia_intensiva"  -
+("terapia_intensiva" -- parametro medico
+-
 (array_agg( 
-expression:= "terapia_intensiva", 
+expression:= "terapia_intensiva", -- parametro medico
 group_by:= "codice_regione" ,
-order_by:=  "data"  )[to_int(@my_exp)-1]))))
+order_by:=  "data"  )[to_int(@my_exp)-1]))
+))
 ```
 
 **PS:** per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/qgis-creare-grafici-con-incrementi-giornalieri/>
@@ -154,9 +179,29 @@ order_by:=  "data"  )[to_int(@my_exp)-1]))))
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
+## Mappa coropleta normalizzata e grafici
+
+Relazione `rel_reg_dpc` 1:m tra le regioni e i dati sul covid-19 (codid19-regioni_noWKT.vrt)
+
+```python
+/*Valori normalizzati dei CASI TOTALI */
+
+(relation_aggregate( 
+relation:='rel_reg_dpc',
+aggregate:='array_agg',
+expression:= "totale_casi",
+order_by:= "data")[-1] -- ultimo valore dell'array
+/"j_pop_res2019" ) -- normalizzo con la popolazione
+*10000 -- moltiplico per 10.000 
+```
+
+![](imgs/coropleta.png)
+
 ## Virtual File Format di GDAL/OGR
 
-link utile: <https://gdal.org/drivers/vector/vrt.html#virtual-file-format>
+Utilizzati per forzare il tipo di campo dei CSV-remoti
+
+link: <https://gdal.org/drivers/vector/vrt.html#virtual-file-format>
 
 ```xml
 <OGRVRTDataSource>
@@ -200,7 +245,10 @@ per ottenere il nome layer corretto
 ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv
 ```
 
-- per usarlo in **QGIS**:
+- due modi per importarlo in **QGIS**:
+
+1. tramite _drag&Drop_ del file `*.vrt`
+2. tramite il `Data Source anager` e il Protocollo HTTPS
 
 ![](./imgs/https_vrt.png)
 
@@ -210,8 +258,8 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 
 1. Shapefile, Geopackage, CSV, CSV remoti;
 2. Join, Relazioni;
-3. Atlas con grafici dinamici (Plugin DataPlotly);
-4. Layout di stampa Andamento nazionale (Plugin DataPlotly);
+3. Mappe coroplete normalizzate (es: `(totale_casi/pop_res)*10000`)
+4. Atlas con grafici dinamici (Plugin DataPlotly);
 5. Visualizzazione immagini remote (Stemmi);
 6. Tematizzazione tramite regole;
 7. Calcolo valori incrementali giornalieri tramite espressioni;
@@ -219,7 +267,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 9. Tabella in relazione nell'Atlas e formattazione condizionale;
 10. Panoramica con Generatore di geometria;
 11. Etichette con valori raggruppati e incrementali.
-12. Decorazioni: Copyright, Immagine e estensioni layout
+12. Decorazioni: Copyright, Immagine, Etichetta Titolo e estensioni layout.
 
 ## Riferimenti utili
 
@@ -232,6 +280,8 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 - **Font Trueno** : <https://www.wfonts.com/font/trueno>
 - **Visual Style Guide** : <https://www.qgis.org/en/site/getinvolved/styleguide.html#trueno-fonts>
 - **Visual Studio Code** : <https://code.visualstudio.com/>
+- **onData** : <https://ondata.it/>
+- **OpenDataSicilia** : <http://opendatasicilia.it/>
 
 ![](./imgs/istat88x31.png)
 **NB:** Tutti i dati prodotti dall’Istituto nazionale di statistica (ISTAT) sono rilasciati sotto [licenza Creative Commons (CC BY 3.0 IT)](https://www.istat.it/it/note-legali): è possibile riprodurre, distribuire, trasmettere e adattare liberamente dati e analisi dell’Istituto nazionale di statistica, anche a scopi commerciali, a **condizione che venga citata la fonte**.
