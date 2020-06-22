@@ -16,7 +16,7 @@
 - [Workshop](#workshop)
   - [Decorazione Etichetta Titolo](#decorazione-etichetta-titolo)
   - [Calcolo incrementi giornalieri](#calcolo-incrementi-giornalieri)
-  - [Mappa coropleta normalizzata e grafici](#mappa-coropleta-normalizzata-e-grafici)
+  - [Mappa coropletica normalizzata e grafici](#mappa-coropletica-normalizzata-e-grafici)
   - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Riferimenti utili](#riferimenti-utili)
@@ -182,7 +182,7 @@ order_by:=  "data"  )[to_int(@my_exp)-1]))
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
-## Mappa coropleta normalizzata e grafici
+## Mappa coropletica normalizzata e grafici
 
 Relazione `rel_reg_dpc` 1:m tra le regioni e i dati sul covid-19 (codid19-regioni_noWKT.vrt)
 
