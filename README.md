@@ -255,7 +255,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 
 ![](./imgs/https_vrt.png)
 
-[↑ torna su ↑](#seminario-estate-gis-2020-unipd)
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
 ## Caratteristiche utilizzate nel progetto
 
