@@ -277,7 +277,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 - **QGIS** : <https://qgis.org/it/site/>
 - **Plugin DataPlotly** : <https://github.com/ghtmtt/DataPlotly>
 - **Fonti dati PCM-DPC** : <https://github.com/pcm-dpc/COVID-19>
-- **CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2019** : <https://www.istat.it/it/archivio/222527>
+- **CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2020** : <https://www.istat.it/it/archivio/222527>
 - **Word Map** : <https://www.naturalearthdata.com/downloads/10m-cultural-vectors/>
 - **Stemmi Regioni Italiane** : <https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane>;
 - **Font Trueno** : <https://www.wfonts.com/font/trueno>
@@ -301,7 +301,6 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
   - shapefile* `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857;
   - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
   - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
-  - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
   - file `stemmi_regione.csv` stemmi regionali;
   - file `world_map.gpkg` geopackage con la world map;
   - file `codid19-andamento_nazione.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub;
