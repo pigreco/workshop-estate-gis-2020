@@ -1,13 +1,5 @@
 # Workshop estate GIS 2020 UNIPD
 
-**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) 🦠 sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/)  e i grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg), realizzazione di una dashboard.
-
-**DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il repository del [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) e creeremo una **dashboard** con il compositore di stampe. Faremo largo uso del plugin **DataPlotly**, del calcolatore di campi e di **GDAL/OGR** per creare virtual file format.
-
-<p align="center"><a href="https://www.mastergiscience.it/it_IT/2020/06/01/estate-gis-2020/" target="_blank"><img src="./imgs/locandina.jpg" width="500" title="EstateGIS"></a></p>
-
----
-
 **INDICE**
 
 <!-- TOC -->
@@ -21,7 +13,7 @@
   - [Dati](#dati)
   - [Contatti](#contatti)
   - [Sitografia](#sitografia)
-- [Descrizione](#descrizione)
+- [Workshop](#workshop)
   - [Decorazione Etichetta Titolo](#decorazione-etichetta-titolo)
   - [Calcolo incrementi giornalieri](#calcolo-incrementi-giornalieri)
   - [Mappa coropleta normalizzata e grafici](#mappa-coropleta-normalizzata-e-grafici)
@@ -31,6 +23,17 @@
   - [Cosa c'è in questo repo](#cosa-cè-in-questo-repo)
 
 <!-- /TOC -->
+
+---
+
+**TITOLO**: <br> Analisi geografica di dati sul [**COVID-19**](https://github.com/pcm-dpc/COVID-19) 🦠 sfruttando le potenzialità del _calcolatore dei campi_ ![](https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/mActionCalculateField.png) di [**QGIS**](https://qgis.org/it/site/)  e i grafici del Plugin [**DataPlotly**](https://www.faunalia.eu/it/dev/dataplotly) ![](https://raw.githubusercontent.com/ghtmtt/DataPlotly/master/DataPlotly/icons/dataplotly.svg), realizzazione di una dashboard.
+
+**DESCRIZIONE**: <br> Obiettivo di questo workshop è quello di evidenziare le potenzialità delle analisi geografiche usando **opendata** e software **Open Source**. Realizzeremo un progetto **QGIS** utilizzando, come fonte dei dati, il repository del [**PCM-DPC**](https://github.com/pcm-dpc/COVID-19) e creeremo una **dashboard** con il compositore di stampe. Faremo largo uso del plugin **DataPlotly**, del calcolatore di campi e di **GDAL/OGR** per creare virtual file format.
+
+<p align="center"><a href="https://www.mastergiscience.it/it_IT/2020/06/01/estate-gis-2020/" target="_blank"><img src="./imgs/locandina.jpg" width="500" title="EstateGIS"></a></p>
+
+---
+
 
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/pigreco/seminario-estate-gis-2020/blob/master/license)
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/pigreco/seminario-estate-gis-2020/commits/master)
@@ -122,7 +125,7 @@
 * **gitlab**: <https://gitlab.com/pigr3co>
 * **Canale Telegram** : <https://t.me/pigrecoinfinito>
 
-# Descrizione
+# Workshop
 
 ## Decorazione Etichetta Titolo
 
