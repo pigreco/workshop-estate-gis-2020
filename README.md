@@ -316,8 +316,8 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 # Risultati evento
 
 1. circa 400 iscritti;
-2. Post su Facebook: <https://www.facebook.com/MasterGIScience/posts/2538177533111389?>
-3. video su Facebook : <https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink>;
+2. **Post su Facebook**: <https://www.facebook.com/MasterGIScience/posts/2538177533111389?>
+3. **video su Facebook** : <https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink>;
 
 
 ## Screenshot
@@ -367,5 +367,11 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 <p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(15).jpeg" width="700" title="QGIS Atlas"></a></p>
 
 <p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/domande.png" width="500" title="Domande fine Workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/fb01.png" width="800" title="ATLAS QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/fb02.png" width="800" title="Espressioni QGIS"></a></p>
+
+<p align="center"><a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="imgs/workshop/fb03.png" width="800" title="#HfcQGIS QGIS"></a></p>
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
