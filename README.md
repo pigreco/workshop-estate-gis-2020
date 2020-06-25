@@ -21,6 +21,8 @@
   - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
   - [Riferimenti utili](#riferimenti-utili)
   - [Cosa c'è in questo repo](#cosa-cè-in-questo-repo)
+- [Risultati evento](#risultati-evento)
+  - [Screenshot](#screenshot)
 
 <!-- /TOC -->
 
@@ -86,8 +88,8 @@
    1. compositore di stampe, layout ![](https://docs.qgis.org/2.14/en/_images/mActionNewComposer.png);
    2. atlante e **DataPlotly** per gli atlas;
 9.  come stampare in serie.
-    1.  in PDF ![](https://docs.qgis.org/2.14/en/_images/mActionSaveAsPDF.png);
-    2.  immagini png,jpg ![](https://docs.qgis.org/2.14/en/_images/mActionSaveMapAsImage.png)
+   1.  in PDF ![](https://docs.qgis.org/2.14/en/_images/mActionSaveAsPDF.png);
+   2.  immagini png,jpg ![](https://docs.qgis.org/2.14/en/_images/mActionSaveMapAsImage.png)
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
 
@@ -308,5 +310,62 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
   - file `dpc-covid19-ita-province-latest.vrt`;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
+
+[↑ torna su ↑](#workshop-estate-gis-2020-unipd)
+
+# Risultati evento
+
+1. circa 400 iscritti;
+2. Post su Facebook: <https://www.facebook.com/MasterGIScience/posts/2538177533111389?>
+3. video su Facebook : <https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink>;
+
+
+## Screenshot
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/daniele.png" width="500" title="Daniele - EstateGIS 2020"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/demarchi.png" width="700" title="Prof. De Marchi - EstateGIS 2020"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(5).jpeg" width="500" title="Iscritti al workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(6).jpeg" width="500" title="Iscritti al workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(7).jpeg" width="700" title="Iscritti al workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(8).jpeg" width="500" title="Iscritti al workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(9).jpeg" width="500" title="Iscritti al workshop"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(1).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(2).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(3).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(4).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(10).jpeg" width="80000" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(11).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(12).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(13).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(14).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(16).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(17).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(18).jpeg" width="700" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(19).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(20).jpeg" width="500" title="QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/screen_(15).jpeg" width="700" title="QGIS Atlas"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/domande.png" width="500" title="Domande fine Workshop"></a></p>
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
