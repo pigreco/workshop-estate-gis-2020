@@ -322,6 +322,8 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 
 ## Screenshot
 
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/start.png" width="80000" title="Daniele - EstateGIS 2020"></a></p>
+
 <p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/daniele.png" width="500" title="Daniele - EstateGIS 2020"></a></p>
 
 <p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/demarchi.png" width="700" title="Prof. De Marchi - EstateGIS 2020"></a></p>
@@ -373,5 +375,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 <p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/fb02.png" width="800" title="Espressioni QGIS"></a></p>
 
 <p align="center"><a href="http://hfcqgis.opendatasicilia.it/it/latest/" target="_blank"><img src="imgs/workshop/fb03.png" width="800" title="#HfcQGIS QGIS"></a></p>
+
+<p align="center"><a href="https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink" target="_blank"><img src="imgs/workshop/end.png" width="80000" title="Daniele - EstateGIS 2020"></a></p>
 
 [↑ torna su ↑](#workshop-estate-gis-2020-unipd)
