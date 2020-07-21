@@ -318,7 +318,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 1. circa 400 iscritti;
 2. **Post su Facebook**: <https://www.facebook.com/MasterGIScience/posts/2538177533111389?>
 3. **video su Facebook** : <https://www.facebook.com/watch/live/?v=829166000940988&ref=watch_permalink>;
-4. **video su YouTube** : https://t.me/joinchat/AAAAAEhv4zwHAT7ujP8Kyw
+4. **video su YouTube** : https://www.youtube.com/watch?v=9Nd0gL23lz4
 
 
 ## Screenshot
